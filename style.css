@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+.space {
+  margin-top: 85px;
+}
+
+body {
+  /* color: white; */
+}
+
+.container {
+  background: linear-gradient(to right, darkblue, blue);
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.card-row {
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.card-one {
+  background-color: white;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+}
+.card-one:hover {
+  transform: scale(1.03);
+  transition: ease-in-out 300ms;
+}
+.card-one-img p img {
+  width: 200px;
+  margin: 15px 0 15px 0;
+}
+.card-one-img p img:hover {
+  transform: scale(1.06);
+  transition: ease-in-out 300ms;
+}
+
+.card-two-img p img {
+  width: 100px;
+  margin: 15px 0 15px 0;
+}
+.card-two-img p img:hover {
+  transform: scale(1.06);
+  transition: ease-in-out 300ms;
+}
+
+.card-three-img p img {
+  width: 100px;
+  margin: 15px 0 15px 0;
+}
+.card-three-img p img:hover {
+  transform: scale(1.06);
+  transition: ease-in-out 300ms;
+}
+
+.card-footer {
+  background: linear-gradient(to right, darkblue, blue);
+  padding: 15px;
+  border-radius: 0 0 14px 14px;
+  cursor: pointer;
+}
+.card-footer:hover {
+  background: linear-gradient(to right, blue, darkblue);
+  transition: ease-in-out 300ms;
+}
+h4 {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+h2 {
+  margin-bottom: 8px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 40px;
+  color: darkblue;
+}
+.card-paragraph {
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+.card-price h3 {
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-stars {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  color: rgb(247, 190, 6);
+}
+.card-stars .star:hover {
+  color: rgb(219, 170, 6);
+}
